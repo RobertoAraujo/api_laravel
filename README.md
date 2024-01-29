@@ -9,6 +9,8 @@
 
 ## Learning Laravel
 
+Api laravel com Swagger [documentação](http://localhost:8000/api/docs).
+
 O Laravel tem a mais extensa e completa [documentação](https://laravel.com/docs) e biblioteca de tutoriais em vídeo de todas as estruturas modernas de aplicações web, tornando muito fácil começar a usar a estrutura.
 
 Você também pode experimentar o [Laravel Bootcamp](https://bootcamp.laravel.com), onde será guiado na construção de uma aplicação Laravel moderna do zero.

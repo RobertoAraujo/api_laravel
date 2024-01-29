@@ -157,18 +157,58 @@
                 ]
             }
         },
-        "/api/users": {
+        "/list": {
             "get": {
+                "tags": [
+                    "Authentication"
+                ],
                 "summary": "Get all users",
-                "operationId": "e69eda5fc3373fa9ecc67ee973788fc3",
+                "operationId": "78f428d22c770eb76273b3a3700810bd",
                 "responses": {
                     "200": {
-                        "description": "List of users"
+                        "description": "Successful operation",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad request",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not found",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Internal server error",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
                     }
                 },
                 "security": [
                     {
-                        "api_key": []
+                        "Token": []
                     }
                 ]
             }

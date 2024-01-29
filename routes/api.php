@@ -18,7 +18,7 @@ Route::post('/user/cadastrar', [UserController::class, 'create']);
 Route::post('/user/logar', [UserController::class, 'login']);
 
 Route::middleware('auth:sanctum')->group(function () {
-    // Route::get('/list', [QddController::class, 'index']);
+    Route::get('/user/list', [UserController::class, 'getUsers']);
     
 });
 

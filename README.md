@@ -49,4 +49,4 @@ Se você descobrir uma vulnerabilidade de segurança no Laravel, envie um e-mail
 
 ## License
 
-A estrutura Laravel é um software de código aberto licenciado sob a [licença MIT](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
